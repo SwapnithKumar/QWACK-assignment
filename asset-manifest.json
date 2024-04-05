@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/QWACK-assignment/static/css/main.5dcdf0d7.css",
-    "main.js": "/QWACK-assignment/static/js/main.d8396424.js",
+    "main.js": "/QWACK-assignment/static/js/main.4f172d80.js",
     "static/js/453.64512fd7.chunk.js": "/QWACK-assignment/static/js/453.64512fd7.chunk.js",
     "index.html": "/QWACK-assignment/index.html",
     "main.5dcdf0d7.css.map": "/QWACK-assignment/static/css/main.5dcdf0d7.css.map",
-    "main.d8396424.js.map": "/QWACK-assignment/static/js/main.d8396424.js.map",
+    "main.4f172d80.js.map": "/QWACK-assignment/static/js/main.4f172d80.js.map",
     "453.64512fd7.chunk.js.map": "/QWACK-assignment/static/js/453.64512fd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5dcdf0d7.css",
-    "static/js/main.d8396424.js"
+    "static/js/main.4f172d80.js"
   ]
 }
