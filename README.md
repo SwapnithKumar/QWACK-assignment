@@ -14,6 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+# Routes that will work
+
+Upon open the website it will navigate to the home page, if we click on vocabulary section on header it will navigate to the vocabulary page, where we can view word of the day and game by clicking on their specific areas.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
