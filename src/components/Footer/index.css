@@ -1,0 +1,44 @@
+.footer-container {
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 6%;
+  background-color: #eef1f6;
+}
+
+.website-logo {
+}
+
+.footer-top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-container {
+  display: flex;
+  max-width: 150px;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 13px;
+  color: rgb(72, 72, 72);
+  margin: 4px;
+}
+
+.address-container {
+  max-width: 300px;
+}
+
+.location-icon {
+  color: #2b70fa;
+}
+
+.email-icon {
+  color: #2b70fa;
+}
+
+.para {
+  color: #505056;
+  font-weight: 600;
+}

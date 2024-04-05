@@ -1,0 +1,45 @@
+.word-day-item {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 3rem;
+  width: 600px;
+  height: 220px;
+}
+
+.day {
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.action {
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.about {
+  font-size: 1rem;
+}
+
+.pos {
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.use {
+  font-size: 1rem;
+  margin: 0px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-style {
+  font-family: sans-serif;
+}

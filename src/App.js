@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Qwack from "./components/Qwack";
+import DayWord from "./components/DayWord";
+import Games from "./components/Games";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/QWACK-assignment" Component={Home} />
+        <Route exact path="/QWACK-assignment/vocabulary" Component={Qwack} />
+        <Route
+          exact
+          path="/QWACK-assignment/vocabulary/word"
+          Component={DayWord}
+        />
+        <Route
+          exact
+          path="/QWACK-assignment/vocabulary/games"
+          Component={Games}
+        />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

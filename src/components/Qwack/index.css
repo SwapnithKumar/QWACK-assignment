@@ -1,0 +1,35 @@
+.app-container {
+  background-color: #ff4e00;
+  background-image: linear-gradient(227deg, #ff4e00, #ec9f05 74%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.game-button {
+  background-image: linear-gradient(227deg, #f27025, #ec9f05 74%);
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 400px;
+  margin-bottom: 24px;
+  z-index: 1;
+  cursor: pointer;
+  outline: none;
+}
+
+.game-heading {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.navigator {
+  text-decoration: none;
+}
